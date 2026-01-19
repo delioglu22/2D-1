@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 
 public class Driver : MonoBehaviour
 {
-    [SerializeField] float steerspeed = 200f;
+    [SerializeField] float steerspeed = 20f;
     [SerializeField] float movespeed = 20f;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -26,11 +26,11 @@ public class Driver : MonoBehaviour
         }
         if(Keyboard.current.leftArrowKey.isPressed)
         {
-            transform.Rotate(0, 0, steerspeed * Time.deltaTime);
+            transform.Translate(-steerspeed * Time.deltaTime, 0, 0);
         }
         else if(Keyboard.current.rightArrowKey.isPressed)
         {
-            transform.Rotate(0, 0, -steerspeed * Time.deltaTime);
+            transform.Translate(+steerspeed * Time.deltaTime, 0, 0);
         }
     }
 }
