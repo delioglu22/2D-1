@@ -5,7 +5,7 @@ A technical prototype developed in Unity to demonstrate 2D physics interactions,
 ## 🎮 Key Features & Technical Details
 
 ### 1. State-Based Interaction Logic
-Instead of simple collisions, the gameplay relies on a logic flow managed by the `Collector` script (formerly Treat.cs).
+Instead of simple collisions, the gameplay relies on a logic flow managed by the `Treat` script.
 * **Boolean State Machine:** The player uses a `FullMouth` boolean flag to switch between "Collecting" and "Delivering" states.
 * **Logic Safety:** Ensures the player cannot collect multiple items simultaneously or deliver without holding an item.
 
