@@ -2,9 +2,6 @@
 
 A technical prototype developed in Unity to demonstrate 2D physics interactions, state-based logic, and input handling. The project focuses on a "Delivery System" mechanic where the player navigates a vehicle to collect and transport items using a boolean state machine logic.
 
-![Game Screenshot](Add_Your_Screenshot_Or_Gif_Here.gif)
-*(Note: Please replace the link above with a screenshot or GIF of your game)*
-
 ## 🎮 Key Features & Technical Details
 
 ### 1. State-Based Interaction Logic
