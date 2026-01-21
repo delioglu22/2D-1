@@ -31,7 +31,7 @@ Instead of simple collisions, the gameplay relies on a logic flow managed by the
 
 1.  Clone this repository:
     ```bash
-    git clone [https://github.com/YourUsername/Unity-2D-Fetch-Mechanic-Prototype.git](https://github.com/YourUsername/Unity-2D-Fetch-Mechanic-Prototype.git)
+    git clone [https://github.com/delioglu22/Unity-2D-Fetch-Mechanic-Prototype.git](https://github.com/YourUsername/Unity-2D-Fetch-Mechanic-Prototype.git)
     ```
 2.  Open **Unity Hub**.
 3.  Click **Add** and select the cloned folder.
